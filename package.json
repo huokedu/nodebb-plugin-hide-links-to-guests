@@ -1,0 +1,27 @@
+{
+  "name": "nodebb-plugin-filter-post-content",
+  "version": "0.1.3",
+  "description": "Alter post content based on pattern matching and fully customizable",
+  "main": "library.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Telokis/nodebb-plugin-filter-post-content.git"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "filter",
+    "post",
+    "content",
+    "group"
+  ],
+  "author": "Telokis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Telokis/nodebb-plugin-filter-post-content/issues"
+  },
+  "homepage": "https://github.com/Telokis/nodebb-plugin-filter-post-content#readme"
+}
