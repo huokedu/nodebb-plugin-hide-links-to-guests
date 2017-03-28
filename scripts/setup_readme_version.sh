@@ -21,9 +21,9 @@ if (echo "$diffval" | grep -q "+  \"version\": \""); then
 fi
 
 buildd="${build}_"
-#sed -i "s/_Current repository version : .*_/_Current repository version : v$major.$minor.$buildd/" README.md
-#sed -i "s/  \"version\": \".*\",/  \"version\": \"$major.$minor.$build\",/" package.json
-#git add README.md package.json
+sed -i "s/_Current repository version : .*_/_Current repository version : v$major.$minor.$buildd/" README.md
+sed -i "s/  \"version\": \".*\",/  \"version\": \"$major.$minor.$build\",/" package.json
+git add README.md package.json
 
 echo "Detected version: $major.$minor.$build"
 
