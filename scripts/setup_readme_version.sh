@@ -14,15 +14,17 @@ build=$(($build+1))
 
 diffval=$(git diff HEAD^)
 if (echo "$diffval" | grep -q "+  \"version\": \""); then
-    tmpver=$(echo "$diffval" | grep "+  \"version\": \"" | sed -r 's/.*"version": "([0-9]+.[0-9]+).*([0-9]+).*/\1/')
+    tmpver=$(echo "$diffval" | grep "\-  \"version\": \"" | sed -r 's/.*"version": "([0-9]+.[0-9]+).*([0-9]+).*/\1/')
     if [ "$version" != "$tmpver" ]; then
         build="0"
     fi
 fi
 
 buildd="${build}_"
-sed -i "s/_Current repository version : .*_/_Current repository version : v$major.$minor.$buildd/" README.md
-sed -i "s/  \"version\": \".*\",/  \"version\": \"$major.$minor.$build\",/" package.json
-git add README.md package.json
+#sed -i "s/_Current repository version : .*_/_Current repository version : v$major.$minor.$buildd/" README.md
+#sed -i "s/  \"version\": \".*\",/  \"version\": \"$major.$minor.$build\",/" package.json
+#git add README.md package.json
+
+echo "Detected version: $major.$minor.$build"
 
 exit 0
