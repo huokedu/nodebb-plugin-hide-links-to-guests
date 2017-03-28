@@ -1,4 +1,4 @@
-_Current repository version : v0.1.4_
+_Current repository version : v0.2.5_
 
 # nodebb-plugin-filter-post-content
 Alter post content based on pattern matching and fully customizable
