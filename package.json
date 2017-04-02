@@ -1,5 +1,5 @@
 {
-  "name": "nodebb-plugin-filter-post-content",
+  "name": "nodebb-plugin-hide-links-to-guests",
   "version": "0.3.3",
   "description": "Alter post content based on pattern matching and fully customizable",
   "main": "library.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Telokis/nodebb-plugin-filter-post-content.git"
+    "url": "git+https://github.com/Telokis/nodebb-plugin-hide-links-to-guests.git"
   },
   "keywords": [
     "nodebb",
@@ -21,7 +21,7 @@
   "author": "Telokis",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Telokis/nodebb-plugin-filter-post-content/issues"
+    "url": "https://github.com/Telokis/nodebb-plugin-hide-links-to-guests/issues"
   },
-  "homepage": "https://github.com/Telokis/nodebb-plugin-filter-post-content#readme"
+  "homepage": "https://github.com/Telokis/nodebb-plugin-hide-links-to-guests#readme"
 }
