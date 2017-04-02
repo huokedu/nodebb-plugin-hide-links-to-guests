@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-filter-post-content",
-  "version": "0.3.0",
+  "version": "0.3.3",
   "description": "Alter post content based on pattern matching and fully customizable",
   "main": "library.js",
   "scripts": {

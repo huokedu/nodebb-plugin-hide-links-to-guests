@@ -1,4 +1,4 @@
-_Current repository version : v0.3.0_
+_Current repository version : v0.3.3_
 
 # nodebb-plugin-hide-links-to-guests
 Alter post content based on pattern matching and fully customizable
